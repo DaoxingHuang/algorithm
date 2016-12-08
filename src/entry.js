@@ -1,6 +1,8 @@
 import Bubble from './sorts/Bubble.js';
 import Insertion from './sorts/Insertion.js'
 import Select from './sorts/Select.js'
+import Shell from './sorts/Shell.js'
+
 
 let arr =[4,7,1,43,34,76,23,66,54,43,12,2,2,3,77,65,54,43,33,56,88];
 console.log('Bubble start ++++++++');
@@ -22,3 +24,9 @@ let set = new Select(arr.slice(0));
 set.printResult();
 console.log('Select end ---------');
 
+console.log('###############################################');
+
+console.log('Shell start ++++++++');
+let shell = new Select(arr.slice(0));
+shell.printResult();
+console.log('Shell end ---------');
